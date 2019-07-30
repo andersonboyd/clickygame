@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "Textile Regular";
+    src: url("../../assets/Textile Regular.ttf");
+}
+
+.navbar { 
+    text-align: center;
+    background-color: #000000;
+}
+
+.navbar > h5{
+    font-family: "Textile Regular";
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.navbar > h5, .navbar > span {
+    color: white;
+}

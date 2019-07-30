@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Frank",
+        "image": "https://i.imgur.com/hScSrGS.png",
+        "isClicked": false
+    },
+    {
+        "id": 2,
+        "name": "Dee",
+        "image": "http://i.imgur.com/j0eDV3X.png",
+        "isClicked": false
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "image": "http://i.imgur.com/y7nzXTP.png",
+        "isClicked": false
+    },
+    {
+        "id": 4,
+        "name": "Mac",
+        "image": "https://images.askmen.com/720x540/entertainment/galleries/tv-s-7-deadly-sins-sloth/19-1444751342.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 5,
+        "name": "Dennis",
+        "image": "https://pbs.twimg.com/media/DnKH_1hWwAEoRpc.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 6,
+        "name": "Cricket",
+        "image": "http://community.ew.com/wp-content/uploads/2015/01/gafsugw.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 7,
+        "name": "Pondy",
+        "image": "https://vignette.wikia.nocookie.net/itsalwayssunny/images/a/af/Bill_Ponderosa.jpg/revision/latest?cb=20111105214828",
+        "isClicked": false
+    },
+    {
+        "id": 8,
+        "name": "Maureen",
+        "image": "https://vignette.wikia.nocookie.net/itsalwayssunny/images/0/03/F7hc3bZ.png/revision/latest?cb=20160218110028",
+        "isClicked": false
+    },
+    {
+        "id": 9,
+        "name": "Liam",
+        "image": "http://i.imgur.com/rzICAgx.jpg",
+        "isClicked": false
+    },
+    {
+        "id": 10,
+        "name": "Ryan",
+        "image": "https://pbs.twimg.com/profile_images/3643105728/1dd4e13f671df431efdc200fccbe84ae_400x400.jpeg",
+        "isClicked": false
+    },
+    {
+        "id": 11,
+        "name": "Margaret",
+        "image": "https://vignette.wikia.nocookie.net/itsalwayssunny/images/b/b7/Margaret_McPoyle.jpg/revision/latest?cb=20111126173924",
+        "isClicked": false
+    },
+    {
+        "id": 12,
+        "name": "Waitress",
+        "image": "https://66.media.tumblr.com/ec546727b4c30a94625014baeac33f80/tumblr_n8e1z1rQXR1qdjgkzo1_500.jpg",
+        "isClicked": false
+    }
+]

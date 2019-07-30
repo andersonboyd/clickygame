@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "Textile Regular";
+    src: url("../../assets/Textile Regular.ttf")
+}
+
+.header{
+    font-family: "Textile Regular";
+    text-align: center;
+    padding: 70px;
+    height: 30vh;
+}
+
+.header > h1 {
+    font-size: 3rem;
+    color: goldenrod;
+}
