@@ -3,8 +3,8 @@ import "./style.css";
 
 function Nav(props){
     return <div className="navbar">
-        <h5>"The Gang makes a clicky game"</h5>
-        <span className="counter">{props.count}/12</span>
+        <h5>"It's Always Clicky in Philadelphia"</h5>
+        <span className="counter">Correct: {props.count}/12</span>
     </div>
 }
 

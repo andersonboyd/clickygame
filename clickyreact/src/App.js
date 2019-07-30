@@ -5,7 +5,6 @@ import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import chars from "./chars.json";
 
-
 class App extends Component {
   state = {
     chars,
@@ -26,7 +25,7 @@ class App extends Component {
     return chars;
   }
 
-  handleClick = id => {
+  handleClick = (id, name) => {
     console.log(`stop clicking me, my id is ${id}`);
     const char = this.state.chars;
     let charPickedIndex;
@@ -38,10 +37,18 @@ class App extends Component {
     }
     if(char[charPickedIndex].isClicked){
       console.log("You already clicked me");
+      alert(`You already clicked on ${name}!
+      Your final score is ${this.state.count}.
+      Press 'OK' to play again.`)
+      window.location.reload();
     }else{
       char[charPickedIndex].isClicked = true;
       this.shuffle(char);
-      this.setState({char, count: this.state.count + 1});
+      // const count = this.state.count;
+      this.setState({chars: char, count: this.state.count + 1});
+      if(this.state.count === 11){
+        alert("You win! Play again?");
+      }
     }
     console.log(char);
   }

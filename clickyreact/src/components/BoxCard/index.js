@@ -3,7 +3,7 @@ import "./style.css";
 
 function BoxCard(props){
     return <div className="card">
-        <div onClick={() => props.handleClick(props.id)} className="img-container">
+        <div onClick={() => props.handleClick(props.id, props.name)} className="img-container">
             <img 
                 id={props.id}
                 src={props.image} 

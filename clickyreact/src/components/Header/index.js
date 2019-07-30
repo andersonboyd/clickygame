@@ -3,7 +3,7 @@ import "./style.css";
 
 function Header(){
     return <div className="header">
-        <h1>"It's Always Clicky in Philadelphia"</h1>
+        <h1>"The Gang makes a clicky game"</h1>
     </div>
 }
 
