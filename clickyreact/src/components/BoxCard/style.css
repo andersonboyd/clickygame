@@ -4,7 +4,7 @@
     margin: 1rem;
     position: relative;
     width: 175px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    box-shadow: 0 2px 3px #999, 0 2px 4px #999;
 }
 
 .card > .img-container{
